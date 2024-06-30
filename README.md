@@ -5,7 +5,4 @@ Versão Desktop:
 
 Versão Mobile: 
 
-![image](https://github.com/LucasKennde/Interactive-Rating-HTML-CSS-Js/assets/166322461/119a2f2d-debd-4cc6-8104-0ca21c8359ef) Interactive: ![image](https://github.com/LucasKennde/Interactive-Rating-HTML-CSS-Js/assets/166322461/e8f268d8-45f0-4aed-9123-44435a108b73)
-
-
-
+![image](https://github.com/LucasKennde/Interactive-Rating-HTML-CSS-Js/assets/166322461/119a2f2d-debd-4cc6-8104-0ca21c8359ef) Interactive:![image](https://github.com/LucasKennde/Interactive-Rating-HTML-CSS-Js/assets/166322461/7bf701ef-c26a-4a63-b417-3d1ca15e7f2a)
