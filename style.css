@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+body{
+    background-color: #131518;
+
+}
+
+.wrapper{
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    max-width: 412px;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 1.5rem;
+    padding: 32px;
+
+
+    img{
+        width: 48px;
+    }
+
+    h1{
+        color:#fff ;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35.5px;
+        margin-top: 30px;
+    }
+    p{
+        margin-top: 7px;
+        color: #969fad;
+        line-height: 24px;
+    }
+    .selected-number{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        button{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background-color: #262e38;
+            cursor: pointer;
+            color: #7C8798;
+            border: none;
+            font-size: 1rem;
+            font-weight: 700;
+            
+        }
+
+        button:hover{
+            background-color: #7C8798;
+            color: #fff;
+            transition: 0.4s;
+        }
+        .selected{
+            background-color: #FC7614;
+            color: #fff;
+            transition: 0.2s;
+        }
+    }
+    .submit{
+        margin-top: 32px;
+        font-size: 1rem;
+        font-weight: 700;
+
+        background-color: #FC7614;
+        color: #fff;
+
+        border: none;
+        border-radius: 20px;
+        padding: 11px;
+
+        cursor: pointer;
+        letter-spacing: 2px;
+    }
+    .submit:active{
+        background-color: #fff;
+        color: #FC7614;
+    }
+}
+
+.numberselected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    img{
+        width: 162px;
+        height: auto;
+    }
+
+    span{
+        padding: 1rem 2rem;
+        background: #262E38;
+        color: #FC7614;
+        border-radius: 2rem;
+        
+    }
+}
